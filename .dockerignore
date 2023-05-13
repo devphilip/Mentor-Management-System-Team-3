@@ -1,0 +1,65 @@
+#env
+backend/**/.env
+
+backend/**/sample.env
+
+
+# compiled output
+backend/dist
+backend/node_modules
+
+# Logs
+backend/**/logs
+backend/**/*.log
+backend/**/npm-debug.log*
+backend/**/pnpm-debug.log*
+backend/**/yarn-debug.log*
+backend/**/yarn-error.log*
+backend/**/lerna-debug.log*
+
+# OS
+backend/**/.DS_Store
+
+# Tests
+backend/coverage
+backend/.nyc_output
+
+# IDEs and editors
+backend/.idea
+backend/**/.project
+backend/**/.classpath
+backend/**/.c9
+backend/**/*.launch
+backend/**/.settings
+backend/**/*.sublime-workspace
+
+# IDE - VSCode
+backend/**/.vscode/*
+!backend/**/.vscode/settings.json
+!backend/**/.vscode/tasks.json
+!backend/**/.vscode/launch.json
+!backend/**/.vscode/extensions.json
+
+
+# dependencies
+frontend/mms-Admin/node_modules
+frontend/mms-Admin/.pnp
+frontend/mms-Admin/**/.pnp.js
+
+# testing
+frontend/mms-Admin/coverage
+
+# production
+frontend/mms-Admin/build
+
+# misc
+frontend/mms-Admin/**/.DS_Store
+frontend/mms-Admin/**/.env.local
+frontend/mms-Admin/**/.env.development.local
+frontend/mms-Admin/**/.env.test.local
+frontend/mms-Admin/**/.env.production.local
+frontend/mms-Admin/**/.eslintrc.json
+
+frontend/mms-Admin/**/npm-debug.log*
+frontend/mms-Admin/**/yarn-debug.log*
+frontend/mms-Admin/**/yarn-error.log*
